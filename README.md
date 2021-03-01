@@ -1,6 +1,6 @@
 # in-toto ![Build](https://github.com/in-toto/in-toto/workflows/Run%20in-toto%20tests%20and%20linter/badge.svg) [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1523/badge)](https://bestpractices.coreinfrastructure.org/projects/1523) [![Build status](https://ci.appveyor.com/api/projects/status/taxlhrrlf3co07e1/branch/develop?svg=true)](https://ci.appveyor.com/project/in-toto/in-toto/branch/develop) [![Documentation Status](https://readthedocs.org/projects/in-toto/badge/?version=latest)](https://in-toto.readthedocs.io/en/latest/?badge=latest)
 
-in-toto provides a framework to protect the integrity of the software supply chain. It does so by verifying that each task in the chain is carried out as planned, by authorized personnel only, and that the product is not tampered with in transit.
+in-toto provides a framework to protect the integrity of the software supply chain. It does so by verifying that each task in the chain is carried out as planned, by authorized personnel only, and that the product is not tampered with in transit. 
 
 in-toto requires a **project owner** to create a **layout**. A layout lists the sequence of **steps** of the software supply chain, and the **functionaries** authorized to perform these steps.
 When a functionary performs a step in-toto gathers information about the used command and the related files and stores it in a **link** metadata file. As a consequence link files provide the required evidence to establish a continuous chain that can be validated against the steps defined in the layout.
