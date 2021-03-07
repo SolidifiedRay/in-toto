@@ -49,5 +49,5 @@ jobs:
           pip install -r requirements-pinned.txt
           pip install -r requirements-test.txt
           pip install -e .
-      - name: Run test
-        run: python tests/test_runlib.py
+      - name: Run tests
+        run: python tests/runtests.py
