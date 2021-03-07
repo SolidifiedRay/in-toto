@@ -49,4 +49,4 @@ jobs:
           python -m pip install tox
 
       - name: Run test
-        run: python tests\test_runlib.py
+        run: python tests/test_runlib.py
